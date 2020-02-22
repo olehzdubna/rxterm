@@ -5,7 +5,7 @@
 #include <iostream>
 #include <algorithm>
 #include <string>
-#include <rxterm/utils.hpp>
+#include <utils.hpp>
 
 namespace rxterm {
 

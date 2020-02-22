@@ -2,9 +2,9 @@
 #define RXTERM_COMPONENTS_PROGRESS_HPP
 
 #include <cmath>
-#include <rxterm/style.hpp>
-#include <rxterm/utils.hpp>
-#include <rxterm/image.hpp>
+#include "style.hpp"
+#include "utils.hpp"
+#include "image.hpp"
 
 namespace rxterm {
 

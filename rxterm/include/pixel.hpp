@@ -2,7 +2,7 @@
 #define RXTERM_PIXEL_HPP
 
 #include <string>
-#include <rxterm/style.hpp>
+#include <style.hpp>
 
 namespace rxterm {
 

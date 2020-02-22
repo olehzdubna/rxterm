@@ -1,8 +1,8 @@
 #ifndef RXTERM_COMPONENTS_MAXWIDTH_HPP
 #define RXTERM_COMPONENTS_MAXWIDTH_HPP
 
-#include <rxterm/image.hpp>
-#include <rxterm/components/component.hpp>
+#include "image.hpp"
+#include "component.hpp"
 #include <cmath>
 #include <functional>
 

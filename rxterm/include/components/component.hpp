@@ -3,8 +3,8 @@
 
 #include <string>
 #include <memory>
-#include <rxterm/image.hpp>
-#include <rxterm/components/text.hpp>
+#include "image.hpp"
+#include "text.hpp"
 
 namespace rxterm {
 

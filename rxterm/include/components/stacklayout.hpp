@@ -2,11 +2,11 @@
 #define RXTERM_COMPONENTS_STACKLAYOUT_HPP
 
 #include <algorithm>
-#include <rxterm/image.hpp>
-#include <rxterm/components/component.hpp>
-#include <rxterm/utils.hpp>
-#include <rxterm/style.hpp>
-#include <rxterm/reflow.hpp>
+#include "image.hpp"
+#include "component.hpp"
+#include "utils.hpp"
+#include "style.hpp"
+#include "reflow.hpp"
 
 namespace rxterm {
 
