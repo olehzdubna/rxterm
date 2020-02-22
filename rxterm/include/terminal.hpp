@@ -19,12 +19,14 @@ struct VirtualTerminal {
   }
 
   static std::string hide() { return "\e[0;8m"; }
+  static std::string unhide() { return "\e[0;0m"; }
 
   VirtualTerminal flip(std::string const& next) const {
     auto const transition = computeTransition(next);
     if(transition == "") return *this;
     std::cout << transition << hide();
     std::flush(std::cout);
+    std::cout << unhide();
     return {next};
   }
 };
