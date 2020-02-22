@@ -3,15 +3,15 @@
 #include <chrono>
 #include <memory>
 
-#include <rxterm/terminal.hpp>
-#include <rxterm/style.hpp>
-#include <rxterm/image.hpp>
-#include <rxterm/reflow.hpp>
-#include <rxterm/components/text.hpp>
-#include <rxterm/components/stacklayout.hpp>
-#include <rxterm/components/flowlayout.hpp>
-#include <rxterm/components/progress.hpp>
-#include <rxterm/components/maxwidth.hpp>
+#include <terminal.hpp>
+#include <style.hpp>
+#include <image.hpp>
+#include <reflow.hpp>
+#include <components/text.hpp>
+#include <components/stacklayout.hpp>
+#include <components/flowlayout.hpp>
+#include <components/progress.hpp>
+#include <components/maxwidth.hpp>
 
 using namespace rxterm;
 
