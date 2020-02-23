@@ -10,6 +10,7 @@ namespace rxterm {
 
 struct Renderable {
   virtual Image render(unsigned const w)const = 0;
+  virtual ~Renderable()=default;
 };
 
 
